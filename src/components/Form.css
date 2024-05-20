@@ -1,0 +1,79 @@
+.form-container {
+  width: 420px;
+  background-color: aquamarine;
+  color: white;
+  padding: 30px 40px;
+  /* background-image: url("https://img.freepik.com/free-vector/realistic-polygonal-background_23-2148925233.jpg?t=st=1715789606~exp=1715793206~hmac=653ab19e29599b1e63a0fac4c392728ecf5d6e4ba0f44a895b332260c63d170c&w=740"); */
+  background-image: url("https://img.freepik.com/free-vector/gradient-geometric-background_23-2149347098.jpg?t=st=1715789803~exp=1715793403~hmac=80630c0a773f2593db79ab6cdb049721395b4c8bebce27a71cef25915b2eec52&w=740");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(50px);
+}
+
+.form-container h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+  height: 50px;
+
+  margin: 30px 0;
+}
+
+.input-container input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.808);
+  border-radius: 40px;
+  font-size: 18px;
+  color: white;
+  padding: 20px 55px 20px 20px;
+}
+
+.input-container input::placeholder {
+  color: white;
+
+  font-size: 16px;
+}
+
+.icons {
+  position: absolute;
+  right: 20px;
+  top: 35%;
+  transform: translate(-50%);
+  font-size: 16px;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: center;
+  /* padding-bottom: 20px; */
+}
+
+.submit-container input {
+  width: 50%;
+  height: 45px;
+  border: none;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 700;
+}
+
+.submit-container input:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: #000000;
+}
